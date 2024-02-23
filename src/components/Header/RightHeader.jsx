@@ -1,14 +1,6 @@
-export default function Header(){
-    return(
-        <header>
-        <nav className="left-menu">
-          <ul>
-            <li>About</li>
-            <li>Store</li>
-          </ul>
-        </nav>
-
-        <nav className="right-menu">
+export default function RightHeader() {
+  return (
+    <nav className="right-menu">
           <ul>
             <li>Gmail</li>
             <li>Images</li>
@@ -27,6 +19,5 @@ export default function Header(){
             </li>
           </ul>
         </nav>
-      </header>
-    ) 
+  )
 }
